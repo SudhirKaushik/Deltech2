@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<title>Deltech computer education</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="IE=edge,chrome=1" html-equiv="X-UA-Compatible">
+<link rel="stylesheet" href="css/template.css">
+ <link rel="stylesheet" href="css/jquery.sidr.dark.css">
+    <script src="js/js-image-slider.js" type="text/javascript"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.sidr.min.js"></script>
+    <script src="js/right.js"></script>
+</head>
+<body>
+<div class="holder"> 
+  <div class="site-logo"><a href="index.html">Deltech</a>
+  <p>A learning and working space</p></div>
+        <ul class="holder-links">
+          <li><a href="index.html" >Know us</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        
+<img id="simple-menu" href="#sidr" src="images/menu.jpg">
+</div>    <div class="outer-head"></div>
+<div id="sidr">
+ <a id="simple-menu2" href="#sidr" style="   color: white;
+  margin: 17px auto;
+  display: block;
+  width: 44%;
+  font-size: 19px;
+  float: none;">Back</a>
+  <ul> <li><a href="index.html" >Know us</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <script>
+$(document).ready(function() {
+  $('#simple-menu').sidr();
+});
+</script>
+</div>
+			
+<div class="container">
+			<ul class="small-links">
+				<li><a href="basic-courses.html" title="">10/+2 students</a></li>
+				<li><a href="college-courses.html" title="">College students</a></li>
+				<li><a href="professional-courses.html" title="">IT Professionals</a></li>
+			</ul>
+<div class="content-box">
+<div class="dilog">
+<h1>College students courses</h1>
+<span> We offer courses to give practical experience to college students.
+Students can learn any desired programming language or technology which they are currently 
+studying. We also provide assistance for developing live-projects.</span>
+</div>
+		<div class="side">
+			<img src="images/College-Students.jpg" alt="">
+		</div>
+</div>
+<div class="content-box2">
+			<div id="c3" class="dropbar	">
+				<span><h2>Web development</h2></span>
+			</div>
+			<div class="content content3">
+				Learn to develop websites on your own. Start from creating websites
+				using pure HTML and CSS, and move towards advanced web layouts
+				for creating dynamic webpages using javascript, jQuery. Get to know the frameworks
+				of Wordpress, Joomla.
+			</div>
+			<div id="c3" class="dropbar	">
+				<span><h2>Java programing</h2></span>
+			</div>
+			<div class="content content3">
+				Course include two phases:<br>
+				Core java: to understand the basics of Java programming <br>	
+				Advance Java: Module for developing web applications using Java frameworks. <br>
+				Course duration : 4 months
+			</div>
+			<div id="c2" class="dropbar">
+				<span><h2>C++</h2></span>
+			</div>
+			<div class="content content2">
+				object oriented programming with C++. <br>
+				Course duration : 4 months
+			</div>
+			<div id="c1" class="dropbar">
+				<span><h2>C</h2></span>
+			</div>
+			<div class="content content1">
+				Learn the basics of C
+				. <br>
+				Course duration : 3 months
+			</div>
+</div>
+<script>
+	$(document).ready(function() {
+			$('.content').hide();
+		$('#c1').click(function(event) {
+			$('.content1').slideToggle();
+			});
+		$('#c2').click(function(event) {
+			$('.content2').slideToggle();
+		});
+		$('#c3').click(function(event) {
+			$('.content3').slideToggle();
+		});
+	});
+</script>
+	
+		<!-- <div class="sub-section">
+		</div>  -->
+</div>
+
+</body>
+<div id="footer">
+<div class="mission">
+<p>Our mission is to bring affordable technology education to people everywhere, in order to help them achieve their dreams and change the world.</p>
+</div>
+
+<div class="cq-seo-links fn_sc_p11 clear"> 				
+	<div class="cq-seo-list"> 
+		<ul class="sub-links">
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Follow us on Facebok</a></li> 
+		</ul> 
+     </div>
+ </div>
+ <div id="copyright">
+                  
+                  <ul class="links">
+                    <li>&copy;2015</li><li>Design:
+                     <a href="github.com/shudhpandit">Sudhir</a></li>
+                  </ul>
+	</div>
+</div>
+</html>
